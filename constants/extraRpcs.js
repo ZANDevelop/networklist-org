@@ -785,6 +785,11 @@ export const extraRpcs = {
       	tracking: "limited",
       	trackingDetails: privacyStatement.zan,
       },
+      {
+        url: "https://polygon.meowrpc.com",
+        tracking: "none",
+        trackingDetails: privacyStatement.meowrpc,
+      }
     ],
   },
   25: {
@@ -1141,6 +1146,11 @@ export const extraRpcs = {
         url: "https://optimism-goerli.publicnode.com",
         tracking: "none",
         trackingDetails: privacyStatement.publicnode,
+      },
+      {
+        url: "https://optimism-goerli.blockpi.network/v1/rpc/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.blockpi,
       },
     ],
   },
@@ -1691,7 +1701,7 @@ export const extraRpcs = {
   },
   63: {
     rpcs: [
-      "https://www.ethercluster.com/mordor",
+      "https://rpc.mordor.etccooperative.org",
       {
         url: "https://geth-mordor.etc-network.info",
         tracking: "yes",
